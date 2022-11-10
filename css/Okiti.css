@@ -1,0 +1,94 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.parent{
+background-color: purple;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+}
+
+ .ebele{
+display: flex;
+margin: 10px;
+}
+
+.link-item{
+margin: 10px;
+list-style: none;
+}
+
+.imagez{
+width: 40%;
+margin:10px;
+}
+.image{
+    width: 60%;
+}
+
+.box{
+text-decoration: none;
+border: 1px solid grey;
+background-color: rgb(235, 131, 235);
+color: white;
+padding: 10px 10px;
+font-size: 20px;
+border-radius: 30px;
+}
+
+.box:hover{
+background-color: white;
+color: purple;
+}
+
+/* hero-section */
+.main{
+display: flex;
+height: 500px;
+justify-content: center;
+align-items: center;
+}
+
+.head{
+margin-bottom: 30px;
+}
+
+.section{
+margin: 20px;
+}
+
+.services{
+display: flex;
+}
+
+.start{
+background-color: purple;
+text-decoration: none;
+color: white;
+padding: 10px 40px;
+font-size: large;
+
+border-radius: 10px;
+}
+
+.image{
+width: 300px;
+}
+.picture{
+margin: 20px;
+display: flex;
+}
+
+.serve{
+text-align: center;
+}
+.service-item{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}

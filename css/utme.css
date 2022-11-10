@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+background-image: url(../img/jamb-bg.jpg);
+height: 100vh;
+}
+
+.main{
+margin-left: 550px;
+}
+
+.div{
+margin-bottom: 30px;
+}
+.header{
+margin-bottom: 20px;
+}
+
+.login-box{
+padding: 10px;
+}
+
+.input{
+padding: 10px 20px;
+outline: none;
+}
+
+.drugs{
+margin-bottom: 15px;
+}
+
+.password{
+margin-bottom: 10px;
+}
+
+.button{   
+display: block;
+padding: 10px 20px;
+margin-left: 16%;
+background-color: aqua;
+border: none
+}
+.b
+
+
+
+
+
+

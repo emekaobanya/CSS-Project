@@ -1,0 +1,36 @@
+.host{
+    width: 600px;
+    height: 500px;
+    border: 5px solid black;
+    position: relative;
+    margin:0 auto;
+}
+
+.item,.item1{
+height: 150px;
+width: 150px;
+}
+
+.item{
+background-color: aqua;
+position: fixed;
+bottom: 50px;
+left: 50px;
+
+}
+
+.item1{
+background-color: blueviolet;
+}
+
+p{
+width: 20%;
+height: 20px;
+display: block;
+}
+
+nav{
+background-color: crimson;
+position:sticky;
+top: 10px;
+}

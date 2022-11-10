@@ -1,0 +1,57 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.parent{
+background-color: white;
+width: 50%;
+Height: 100vh;
+margin:0 auto;
+text-align: center;
+margin-top: 5%;
+}
+.image{
+margin-bottom: 15px;
+}
+
+.input{
+padding: 10px;
+padding-bottom: 10px;
+}
+.div{
+padding: 20px 40%;
+border-radius: 30px;
+border: 1px solid grey;
+}
+.daddy{
+margin-top: 30px;
+font-size: larger;
+color: grey;
+padding-bottom: 10px;
+}
+.ebele{
+display: flex;
+margin-left: 60px;
+}
+
+.go{
+margin: 10px;
+text-decoration: none;
+margin-top: 20px;
+}
+
+.oge{
+margin-top: 23px;
+font-size: small;
+color: grey;
+}
+
+.div:focus{
+outline: none;
+box-shadow:3px 7px 5px 1px rgba(217,213,213,0.86);
+-webkit-box-shadow: 3px 7px 5px 1px rgba(217,213,213,0.86);
+-moz-box-shadow: 3px 7px 5px 1px rgba(217,213,213,0.86);
+cursor: pointer;
+}

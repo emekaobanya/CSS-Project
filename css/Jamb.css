@@ -1,0 +1,43 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.header{
+background-color: darkgreen;
+color: white;;
+}
+
+.image{
+width: 40%;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.links{
+    display: flex;
+}
+.link-item{
+list-style: none;
+margin: 10px;
+}
+a{
+color: white;
+text-decoration:  none;
+}
+
+.link-item:hover{
+    background-color: white;
+    font-size: 19px;
+    color: green;
+}
+a:hover{
+color:green;
+}
+
+a{
+    font-size: 19px;
+}

@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.parent{
+background-color: cornflowerblue;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+}
+
+.link-item{
+list-style: none;
+margin: 10px;
+}
+
+.links{
+display: flex;
+margin: 20px;
+}
+
+.pen{
+color: white;
+text-decoration: none;
+font-size: large;
+background-color: rgb(35, 75, 150);
+padding: 10px;
+border-radius: 20px;
+}
+
+.hero{
+height: 500px;
+background-color: beige;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a{
+display: block;
+margin-top: 20px;
+text-decoration: none;
+text-align: center;
+background-color: rgb(52, 99, 185);
+padding: 10px 20px;
+border-radius: 30px;
+color: white;
+}
+a:hover{
+background-color: rgb(18, 25, 39);
+color: white;
+}
+
+.pen:hover{
+background-color: rgb(28, 29, 32);
+}
+
+
+.image{
+width: 40%;
+margin-top: 20px;
+}
+
+.services{
+background-color: rgb(240, 233, 233);
+margin: 20px;
+}
+
+.item-service{
+display: flex;
+}
+
+.fine{
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.mid{
+text-align: center;
+margin-bottom: 20px;
+}
+
+.item-contact{
+background-color: red;
+}
+
+.dame{
+display: flex;
+}
+
+.margin{
+margin: 20px;
+}
+
+.name{
+width: 100%;
+padding: 10px 20px;
+}
+
+.email{
+padding: 10px 20px;
+width: 100%;
+}
+
+.button{
+display: block;
+margin-left: 20%;
+padding: 10px 20px;
+border-radius: 20px;
+background-color: rgb(28, 157, 207);
+border: none;
+color: white;
+}
+
+.message{
+width: 100%;
+}
+
+background-image:linear-gradient(to right, yellow, light-green)

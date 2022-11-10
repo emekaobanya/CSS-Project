@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: o;
+box-sizing: border-box;
+}
+
+.parent{
+background-color: darkgreen ;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+}
+
+.links{
+list-style: none;
+display: flex;
+margin-top: 10px;
+}
+
+.point{
+margin: 10px;
+}
+
+.image{
+width: 50%;
+margin-top: 10px;
+}
+
+.item{
+text-decoration: none;
+font-size: large;
+background-color: rgb(91, 241, 91);
+border-radius: 20px;
+padding: 10px;
+color: rgb(46, 18, 18);
+}
+
+.item:hover{
+background-color: rgb(184, 235, 235);
+}
+
+
+.Hero-section{
+background-color: beige ;
+height: 500px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.journey{
+display: block;
+margin:0 auto;
+text-align: center;
+margin-top: 20px;
+background-color: darkgreen;
+padding:10px 20px;
+border-radius: 20px;
+color: white;
+text-decoration: none;
+}
+
+.imagez{
+width: 200px;
+}
+
+.source{
+margin: 20px;
+}
+
+.photo{
+display: flex;
+}
+
+.services{
+text-align: center;
+}
+
+.title{
+text-align: center;
+}
+
+.services{
+margin-bottom: 10px;
+}
+
+
+

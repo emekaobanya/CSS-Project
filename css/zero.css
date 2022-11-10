@@ -1,0 +1,29 @@
+a:link{
+color: rgb(78, 155, 78);
+}
+a:visited{
+color: purple;
+}
+
+a:active{
+color: red;
+}
+
+
+/* 
+li:nth-child(even){
+background-color: lightblue;
+}
+
+li:nth-child(odd){
+background-color: aqua;
+} */
+
+li:nth-child(1n+0){
+/* 
+a= cycle size
+n= counter (and it starts at 0]
+b= offset value
+*/
+background-image: linear-gradient(to left, yellow, lightgreen);
+}

@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.parent{
+background-color: cornflowerblue;
+}
+
+.nav{
+display: flex;
+justify-content: space-between;
+}
+
+.link-item{
+display: flex;
+list-style: none;
+margin:20px;
+}
+
+.space{
+margin: 10px;
+
+}
+
+.cord{
+text-decoration: none;
+display: block;
+}
+
+.nav-link{
+text-decoration: none;
+font-size: large;
+background-color: rgb(215, 223, 238);
+padding: 10px 10px;
+border-radius: 20px;
+}
+
+.nav-link:hover{
+background-color: rgb(15, 27, 49);
+color: white
+}
+
+.main{
+height: 500px;
+background-color: rgb(216, 220, 226) ;
+display: flex;
+justify-content: center;
+align-items: center;
+background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),url(../img/boy.jpg);
+}
+
+.journey{
+display: block;
+margin: 10px;
+background-color: cornflowerblue;
+padding: 10px 20px;
+margin:0 auto;
+font-size: large;
+text-decoration: none;
+border-radius: 20px;
+color: rgb(22, 22, 24);
+}
+
+.journey:hover{
+background-color: rgb(170, 176, 187);
+color: rgb(72, 72, 139);
+
+}
+.head{
+text-align: center;
+}
+
+.name{
+width: 20%;
+}
+
+.image{
+width: 40%;
+margin: 11px;
+}
+
+.imagez{
+width: 40%;
+}
+
+.service-item{
+margin: 20px;
+}
+
+.emeka{
+display: flex;
+}
+
+.head{
+text-align: center;
+margin-bottom: 20px;
+}

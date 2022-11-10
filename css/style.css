@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: darkgreen;
+    color: white;
+    padding: 20px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.links{
+    display: flex;
+}
+.link-item {
+    margin: 10px;
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 19px;
+}
+.nav-link{
+    color: white;
+    text-decoration: none;
+}
+.link-item:hover{
+    background-color: white;
+    /* color: green; */
+}
+.link-item:hover a{
+    color: green;
+}
+
+.image{
+width: 40%;
+}
+
+
+
+/* Hero Section Style */
+.hero-section{
+    height: 500px;
+    background-image: url('../img/jamb-bg.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.start-button{
+    background-color: darkgreen;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.services{
+    display: flex;
+    justify-content: center;
+}
+.services-section{
+    padding: 60px;
+}
+.services-text{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.services-item{
+    background-color: rgba(248, 248, 248, 0.89);
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.boy{
+    width: 200px;
+    margin-bottom: 20px;
+}
+.contact-box{
+    display: flex;
+}
+.text-center{
+    text-align: center;
+}
+.mb{
+    margin-bottom: 20px;
+}
+.margin{
+    margin: 20px;
+}
+
+.form{
+width: 100%;
+}
+
+.name{
+width: 100%;
+padding: 10px 20px;
+}
+
+.email{
+width:100%;
+padding:10px 20px;
+}
